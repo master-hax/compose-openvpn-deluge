@@ -16,7 +16,7 @@ the Deluge web UI should be accessible at http://localhost:8112
 
 if you want to use this persistently, you should probably
 1. change the locations of the `deluge-data-volume` & `downloads-volume`
-1. uncomment the environment lines & forward port 42069 with your VPN provider (or pick a different port)
+1. uncomment the environment lines & forward port 42069 with your VPN provider (or pick a different port). then use the same port in Deluge as the incoming port.
 
 ## how it works
 
