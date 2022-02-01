@@ -1,6 +1,6 @@
 # compose-wireguard-openvpn
 
-a multi-container Docker application to run [Deluge](https://hub.docker.com/r/linuxserver/ipfs) behind an [OpenVPN client](https://hub.docker.com/r/dperson/openvpn-client) client
+a multi-container Docker application to run [Deluge](https://hub.docker.com/r/linuxserver/deluge) behind an [OpenVPN client](https://hub.docker.com/r/dperson/openvpn-client)
 
 ## how to set it up
 
