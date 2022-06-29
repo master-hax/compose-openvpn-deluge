@@ -35,7 +35,7 @@ services:
     image: dperson/openvpn-client
     restart: unless-stopped
     networks:
-      - isolated_ipfs_network
+      - isolated_torrent_network
     cap_add:
       - NET_ADMIN
     read_only: true
