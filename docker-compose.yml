@@ -46,7 +46,7 @@ services:
       - openvpn-client-config-volume:/vpn
     environment:
       FIREWALL: ""
-      # VPNPORT: "42069;udp"   # port forwarding for the torrent clietn
+      # VPNPORT: "42069;udp"   # port forwarding for the torrent client
       # VPNPORT_2: "42069;tcp" # update the deluge incoming port to be the same as this
       OTHER_ARGS: "--mute-replay-warnings" # optional
     sysctls:
